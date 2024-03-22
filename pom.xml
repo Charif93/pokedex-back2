@@ -110,7 +110,7 @@
 	                <repository>
 	                   <id>github</id>
 	                   <name>GitHub OWNER Apache Maven Packages</name>
-	                   <url>https://maven.pkg.github.com/sPioT/pokedex-back</url>
+	                   <url>https://maven.pkg.github.com/Charif93/pokedex-back2</url>
 	               </repository>
 	            </distributionManagement>
 
