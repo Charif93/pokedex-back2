@@ -6,7 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.2.3</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup par ent from repository -->
 	</parent>
 	<groupId>fr.idformation</groupId>
 	<artifactId>pokedex</artifactId>
@@ -98,7 +98,7 @@
                   <version>4.8.3.0</version>
                   <configuration>
 					  <effort>Max</effort>
-					  <threshold>high</threshold>
+					  <threshold>medium</threshold>
                       <xmlOutput>true</xmlOutput>
                       <failOnError>false</failOnError>
                   </configuration>
@@ -106,5 +106,12 @@
 		</plugins>
 		
 	</build>
+	             <distributionManagement>
+	                <repository>
+	                   <id>github</id>
+	                   <name>GitHub OWNER Apache Maven Packages</name>
+	                   <url>https://maven.pkg.github.com/Charif93/pokedex-back2</url>
+	               </repository>
+	            </distributionManagement>
 
 </project>
